@@ -1,9 +1,47 @@
 .box {
   float: left;
-  width: 33%;
+  width: 30%;
   height: 20%;
   margin: 1em;
 }
 .after-box {
   clear: left;
+}
+.center{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+.text{
+	text-align: center;
+	color:  #2e4053; 
+}
+#superior{
+	text-align: right;
+	height: 3em;
+}
+#pie{
+	clear: both;
+	text-align: center;
+	background-color: #41506b;
+	height: 2em;
+	color: #ebe9f6;
+}
+.circular { 
+	width: 310px; 
+	height: 310px; 
+	border-radius: 150px; 
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+p{
+	color:  #2e4053 ;
+}
+.text-muted{
+	color:   #34495e;
+}
+.contenido{
+	color:  #95a5a6;
+}
+body{
+	background-image: imagenes/1.jpeg;
 }
