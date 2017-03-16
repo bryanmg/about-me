@@ -1,42 +1,74 @@
- <DOCTYPE>
- <html>
-  <head>
-     <meta http-equiv = "content-type" content = "text/html; charset=utf-8"/>
-     <title>About Me</title>
-  </head>
-  <body>
-  	<div><!-- Div para la pestaña superior-->
-  		<div>
-  			Relacionados Desarrollo Galeria 
-  		</div>
-  	</div>
-  	<BODY BACKGROUND="imagenes/1.jpeg" class="img-responsive">
-  	<div>
-  		<img src="imagenes/yo.jpg" alt="Responsive image" class="img-circle center-block">
-  		<p><h1>Bryan Mendoza Guerrero</h1></p>
-  	</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv = "content-type" content = "text/html; charset=utf-8"/>
+        <title>About Me</title>
+        <link rel="stylesheet" href="css/boostrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="estilos-css.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="imagenes/favicon.ico" type='image/x-icon'>
+    </head>
 
-  	<div><!-- segunda pantalla del scroll -->
-  		<div>Desarrollo personal</div>
-  		<div><!-- seccion 1-->
-  			<p class="text-muted">TAEKWONDO</p>
-  			Practicando este deporte desde Enero de 2013.
-        Grado: Primer Dan. En praparación para segundo Dan.
-  		</div>
-  		<div><!-- seccion 2-->
-  			<p>ACADÉMICO</p>
-  			Cursando cuarto semestre de Ing. en Sistemas Computacionales.
-        En preparación para la olimpiada matemática organizada interTecs.
-        Mentor de un equipo de 3 nilas en el concurso "TecnovationChallenge".
-        Becario en la DGRE (Dirección General de Recursos Educativos) en la U de C.
-        En proceso de inscripción al programa de investigación cientifica Delfín.
-  		</div>
-  		<div><!-- seccion 3-->
-  			<p>SOCIAL</p>
-  			¿Esperas que tenga vida social despues de todo eso? ¿Que me crees?.
-        (No tengo amigos).
-  		</div>
-  	</div>
+    <body> 
+      
+      <div><!-- Div para la pestaña superior-->
+        <div id="superior">
+          <div class="relation-center">
+            <h4><a href="">Relacionados</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="">Desarrollo</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="">Galeria</a>&nbsp;</h4>
+          </div>  
+        </div>
+      </div>
+       	
+      <div class="center">
+        <div class="realtion2">
+          <br/>
+          <img src="imagenes/yo.jpg" alt="Responsive image" class="img-circle center-block circular">
+        </div>
+        <p><h1>Bryan Mendoza Guerrero</h1></p>
+      </div>
+
+      <div class="after-box"><!-- segunda pantalla del scroll -->
+          <div class="text"><h3>Desarrollo personal</h3></div>
+            <div class="box"><!-- seccion 1-->
+              <img src="imagenes/tkd1.jpg" class="img-circle center-block secundario">
+              <br>
+            	<p class="text-muted">TAEKWONDO</p>
+            	<p class="contenido">Practicando este deporte desde Enero de 2013.
+                  Grado: Primer Dan. En praparaci&oacute;n para segundo Dan.</p>
+            </div>
+          
+        <div class="box"><!-- seccion 2-->
+          <img src="imagenes/dgre2.jpg" class="img-circle center-block secundario">
+          <br>
+        	<p class="text-muted">ACAD&Eacute;MICO</p>
+        	<p class="contenido">Cursando cuarto semestre de Ing. en Sistemas Computacionales.
+              En preparaci&oacute;n para la olimpiada matemática organizada interTec's.
+              Mentor de un equipo de 3 ni&ntilde;as en el concurso "TecnovationChallenge".
+              Becario en la DGRE (Direcci&oacute;n General de Recursos Educativos) en la U de C.
+              En proceso de inscripci&ocuate;n al programa de investigaci&ocuate;n cientifica Delf&iacute;n.
+          </p>
+        </div>
+        	<div class="box"><!-- seccion 3-->
+            <img src="imagenes/social3.jpg" class="img-circle center-block secundario">
+            <br>
+        		<p class="text-muted">SOCIAL</p>
+        		<p class="contenido">¿Esperas que tenga vida social despues de todo eso? ¿Que me crees?.
+              (No tengo amigos).</p>
+        	</div>
+      </div>
      
-  </body>
- </html>
+    <div id="pie">
+      <div class="relation">
+        <h5>P&aacute;gina Desarrollada por Bryan, alias El Negro :)</h5>
+      </div>
+    </div>
+        
+        <!-- Los javascripts BACKGROUND="imagenes/1.jpeg" class="img-responsive"-->
+        <script type="text/javascript" src="js/boostrap.min.js"></script>
+        <script type="text/javascript" src="js/boostrap.js"></script>
+    </body>
+</html>
