@@ -27,6 +27,9 @@
 }
 #pie{
 	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 95%;
 	text-align: center;
 	background-color: #34699a;
 	height: 2em;
@@ -65,11 +68,15 @@ html{
 }
 .relation2{
 	padding-top: 1em;
+	float: left;
+	color: #000;
+	position: relative;
 }
 a{
 	color: #34495e;
 }
 body{
+	float: center;
 	text-align: center;
 	width: 95%;
 	height: 100%;
@@ -80,4 +87,11 @@ body{
 	height: 120px; 
 	border-radius: 150px; 
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+.opacity{
+   /*background-color:rgb(255,0,0);*/
+   opacity:0.6;
+   filter:alpha(opacity=60); /* IE < 9.0 */
+   width:200px;
+   height:70px;
 }
