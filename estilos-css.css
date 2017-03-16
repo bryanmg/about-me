@@ -6,6 +6,8 @@
 }
 .after-box {
   clear: left;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 .center{
 	text-align: center;
@@ -17,15 +19,17 @@
 	color:  #2e4053; 
 }
 #superior{
+	text-indent: 1em;
+	padding-right: 4em;
 	text-align: right;
-	height: 3em;
+	height: 4em;
+	background-color: #34699a;
 }
 #pie{
 	clear: both;
 	text-align: center;
-	background-color: #41506b;
+	background-color: #34699a;
 	height: 2em;
-	color: #ebe9f6;
 }
 .circular { 
 	width: 310px; 
@@ -36,12 +40,44 @@
 p{
 	color:  #2e4053 ;
 }
+.relation{
+	padding-top: 1px;
+}
 .text-muted{
 	color:   #34495e;
 }
 .contenido{
-	color:  #95a5a6;
+	color:  #233142;
+}
+html{
+	background-image: url(imagenes/2.jpeg);
+	background-repeat: no-repeat; 
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.relation-center{
+	padding-top: 1em;
+	clear: both;
+}
+.relation2{
+	padding-top: 1em;
+}
+a{
+	color: #34495e;
 }
 body{
-	background-image: imagenes/1.jpeg;
+	text-align: center;
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+}
+.secundario{
+	width: 120px; 
+	height: 120px; 
+	border-radius: 150px; 
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
