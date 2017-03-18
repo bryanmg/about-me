@@ -3,6 +3,8 @@
   width: 30%;
   height: 20%;
   margin: 1em;
+  background-color: #FFF;
+  padding-top: 6px;
 }
 .after-box {
   clear: left;
@@ -17,6 +19,8 @@
 .text{
 	text-align: center;
 	color:  #2e4053; 
+	padding-bottom: 5px;
+	padding-left: 0em;
 }
 #superior{
 	text-indent: 1em;
@@ -71,6 +75,7 @@ html{
 	float: left;
 	color: #000;
 	position: relative;
+	opacity: 0.5;
 }
 a{
 	color: #34495e;
@@ -94,4 +99,8 @@ body{
    filter:alpha(opacity=60); /* IE < 9.0 */
    width:200px;
    height:70px;
+}
+.description{
+	background-color: black;
+	
 }
