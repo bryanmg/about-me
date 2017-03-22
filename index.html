@@ -15,14 +15,14 @@
 
     <body> 
       
-      <div><!-- Div para la pestaña superior-->
+      <header class="cabecera"><!-- Div para la pestaña superior-->
         <div id="superior">
           <div class="relation-center">
             <h4><a href="">Relacionados</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="">Desarrollo</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="">Galeria</a>&nbsp;</h4>
           </div>  
         </div>
-      </div>
-       	
+      </header>
+
       <div class="center">
         <div class="realtion2">
           <br/>
@@ -35,7 +35,7 @@
           <div class="text"><h3>Desarrollo personal</h3></div>
           <div clas="description">
               <div class="box"><!-- seccion 1-->
-                <img src="imagenes/tkd1.jpg" class="img-circle center-block secundario">
+                <img src="imagenes/tkd1.jpg" class="img-circle center-block secundario" id="imagenover">
                 <br>
               	<p class="text-muted">TAEKWONDO</p>
               	<p class="contenido">Practicando este deporte desde Enero de 2013.
@@ -43,7 +43,7 @@
               </div>
             
             <div class="box"><!-- seccion 2-->
-              <img src="imagenes/dgre2.jpg" class="img-circle center-block secundario">
+              <img id="imagenover" src="imagenes/dgre2.jpg" class="img-circle center-block secundario">
               <br>
             	<p class="text-muted">ACAD&Eacute;MICO</p>
             	<p class="contenido">Cursando cuarto semestre de Ing. en Sistemas Computacionales.
@@ -54,7 +54,7 @@
               </p>
             </div>
             	<div class="box"><!-- seccion 3-->
-                <img src="imagenes/social3.jpg" class="img-circle center-block secundario">
+                <img id="imagenover" src="imagenes/social3.jpg" class="img-circle center-block secundario">
                 <br>
             		<p class="text-muted">SOCIAL</p>
             		<p class="contenido">¿Esperas que tenga vida social despues de todo eso? ¿Que me crees?.
@@ -72,5 +72,7 @@
         <!-- Los javascripts BACKGROUND="imagenes/1.jpeg" class="img-responsive"-->
         <script type="text/javascript" src="js/boostrap.min.js"></script>
         <script type="text/javascript" src="js/boostrap.js"></script>
+        <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+        <script type="text/javascript" src="estilos-js.js"></script>
     </body>
 </html>

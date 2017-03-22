@@ -1,4 +1,4 @@
-.box {
+/**/.box {
   float: left;
   width: 30%;
   height: 20%;
@@ -15,6 +15,7 @@
 	text-align: center;
 	width: 80%;
 	margin: auto;
+	padding-top: 4em;
 }
 .text{
 	text-align: center;
@@ -91,7 +92,7 @@ body{
 	width: 120px; 
 	height: 120px; 
 	border-radius: 150px; 
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 1);
 }
 .opacity{
    /*background-color:rgb(255,0,0);*/
@@ -103,4 +104,8 @@ body{
 .description{
 	background-color: black;
 	
+}
+.cabecera{
+	width: 95%;
+	position: fixed;
 }
