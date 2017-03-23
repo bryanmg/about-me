@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 	$(".secundario").mouseover(function(){
-		$(".secundario").css("box-shadow", "0 0 15px");
+		$(this).css("box-shadow", "0 0 15px");
 	});
 });
 
