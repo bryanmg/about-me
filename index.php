@@ -18,7 +18,7 @@
       <header class="cabecera"><!-- Div para la pestaña superior-->
         <div id="superior">
           <div class="relation-center">
-            <h4><a href="#ancla">Relacionados</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Desarrollo</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Galeria</a></h4>
+            <h4><a href="">Relacionados</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Desarrollo</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#ancla">Galeria</a></h4>
           </div>  
         </div>
       </header>
@@ -62,9 +62,13 @@
                   (No tengo amigos).</p>
             	</div>
               <div class="box"><!-- seccion 4-->
+                <img id="imagenover" src="imagenes/work.jpg" class="img-circle center-block secundario">
+                <br>
                 <a href=""><p class="text-muted">EL WORK</p></a>
                 <p class="contenido">
-
+                  En cuanto a trabajo no hay mucho que decir...
+                  Me gusta cosinar y preparar vebidas.
+                  tengo una fijacion severa por los pandas :)
                 </p>
               </div>
           </div>
@@ -72,9 +76,16 @@
 
       <div> <!-- seccion con ancla-->
         <a name="ancla" id="a"></a>
-        <br>
-        <br>
-        <br>
+        <div class="description">
+        <?=
+          $limit=8;
+          //echo "<img id='' src='imagenes/galeria".$con.".jpg' class='galery'>";
+          for($con = 1; $con <= $limit; $con++){
+            ?><img id='' src='imagenes/galeria"<?=$con?>".jpg' class='galery'>
+            <?=
+          }
+        ?>
+        </div>
       </div>
      
     <div id="pie">

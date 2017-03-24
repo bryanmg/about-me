@@ -87,6 +87,10 @@ html{
 a{
 	color: #34495e;
 }
+a:link{
+	text-decoration: none;
+	background-color: #33cccc
+}
 body{
 	float: center;
 	text-align: center;
@@ -118,4 +122,9 @@ body{
 	width: 100%;
 	float: left;
 	margin-top: 15px;
+}
+.galery{
+	float: left;
+	width: 20%;
+	margin: 1em;
 }
