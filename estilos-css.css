@@ -1,20 +1,27 @@
-.box {
+/*margin: 1em;*/.box {
   float: left;
-  width: 30%;
-  height: 20%;
-  margin: 1em;
+  width: 25%;
+  height: 21em;
   background-color: #FFF;
-  padding-top: 6px;
+  padding-top: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .after-box {
-  clear: left;
+	float: left;
+  margin: 10px;
   margin-top: 2em;
   margin-bottom: 1em;
+  background-color: #FFF;
+  width: 100%;
+  margin-left: 0px;
 }
 .center{
 	text-align: center;
 	width: 80%;
 	margin: auto;
+	padding-top: 4em;
+	padding-bottom: 5px;
 }
 .text{
 	text-align: center;
@@ -91,7 +98,7 @@ body{
 	width: 120px; 
 	height: 120px; 
 	border-radius: 150px; 
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 1);
 }
 .opacity{
    /*background-color:rgb(255,0,0);*/
@@ -101,6 +108,14 @@ body{
    height:70px;
 }
 .description{
-	background-color: black;
-	
+	background-color: #FFF;
+}
+.cabecera{
+	width: 95%;
+	position: fixed;
+}
+.espacio{
+	width: 100%;
+	float: left;
+	margin-top: 15px;
 }

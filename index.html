@@ -15,14 +15,14 @@
 
     <body> 
       
-      <div><!-- Div para la pestaña superior-->
+      <header class="cabecera"><!-- Div para la pestaña superior-->
         <div id="superior">
           <div class="relation-center">
-            <h4><a href="">Relacionados</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="">Desarrollo</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="">Galeria</a>&nbsp;</h4>
+            <h4><a href="#ancla">Relacionados</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="">Desarrollo</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="">Galeria</a>&nbsp;</h4>
           </div>  
         </div>
-      </div>
-       	
+      </header>
+
       <div class="center">
         <div class="realtion2">
           <br/>
@@ -30,37 +30,51 @@
         </div>
         <p><h1>Bryan Mendoza Guerrero</h1></p>
       </div>
-
+      <div class="espacio"><br><br></div>
       <div class="after-box"><!-- segunda pantalla del scroll -->
-          <div class="text"><h3>Desarrollo personal</h3></div>
+          
           <div clas="description">
+            <div class="text"><h3>Desarrollo personal</h3></div>
               <div class="box"><!-- seccion 1-->
-                <img src="imagenes/tkd1.jpg" class="img-circle center-block secundario">
+                <img src="imagenes/tkd1.jpg" class="img-circle center-block secundario" id="imagenover">
                 <br>
-              	<p class="text-muted">TAEKWONDO</p>
+              	<a href=""><p class="text-muted">TAEKWONDO</p></a>
               	<p class="contenido">Practicando este deporte desde Enero de 2013.
                     Grado: Primer Dan. En praparaci&oacute;n para segundo Dan.</p>
               </div>
             
-            <div class="box"><!-- seccion 2-->
-              <img src="imagenes/dgre2.jpg" class="img-circle center-block secundario">
-              <br>
-            	<p class="text-muted">ACAD&Eacute;MICO</p>
-            	<p class="contenido">Cursando cuarto semestre de Ing. en Sistemas Computacionales.
-                  En preparaci&oacute;n para la olimpiada matemática organizada interTec's.
-                  Mentor de un equipo de 3 ni&ntilde;as en el concurso "TecnovationChallenge".
-                  Becario en la DGRE (Direcci&oacute;n General de Recursos Educativos) en la U de C.
-                  En proceso de inscripci&oacute;n al programa de investigaci&oacute;n cientifica Delf&iacute;n.
-              </p>
-            </div>
-            	<div class="box"><!-- seccion 3-->
-                <img src="imagenes/social3.jpg" class="img-circle center-block secundario">
+              <div class="box"><!-- seccion 2-->
+                <img id="imagenover" src="imagenes/dgre2.jpg" class="img-circle center-block secundario">
                 <br>
-            		<p class="text-muted">SOCIAL</p>
+              	<a href=""><p class="text-muted">ACAD&Eacute;MICO</p></a>
+              	<p class="contenido">Cursando cuarto semestre de Ing. en Sistemas Computacionales.
+                    En preparaci&oacute;n para la olimpiada matemática organizada interTec's.
+                    Mentor de un equipo de 3 ni&ntilde;as en el concurso "TecnovationChallenge".
+                    Becario en la DGRE (Direcci&oacute;n General de Recursos Educativos) en la U de C.
+                    En proceso de inscripci&oacute;n al programa de investigaci&oacute;n cientifica Delf&iacute;n.
+                </p>
+              </div>
+            	<div class="box"><!-- seccion 3-->
+                <img id="imagenover" src="imagenes/social3.jpg" class="img-circle center-block secundario">
+                <br>
+            		<a href=""><p class="text-muted">SOCIAL</p></a>
             		<p class="contenido">¿Esperas que tenga vida social despues de todo eso? ¿Que me crees?.
                   (No tengo amigos).</p>
             	</div>
+              <div class="box"><!-- seccion 4-->
+                un div mas
+              </div>
           </div>
+      </div>
+      <div class="borrar">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem ligula, maximus a nisi id, faucibus rhoncus lacus. Nulla at suscipit ipsum. Sed porta mattis orci sit amet interdum. Cras porta, felis a rutrum ultrices, urna arcu ultrices metus, ac molestie sem arcu sed ligula. Maecenas quis aliquam odio, nec maximus enim. Vestibulum vel egestas metus, sed venenatis sem. Integer porta sem finibus facilisis lacinia. Curabitur et quam lectus. Cras accumsan porta quam, ac rhoncus urna sagittis tincidunt. Sed sed justo imperdiet nulla vulputate faucibus vel lobortis dolor. Donec interdum sollicitudin aliquet.
+
+In eu consequat justo. Aenean sed fringilla augue. Nulla accumsan feugiat eleifend. Nam ultricies erat ut quam tincidunt, ut posuere est finibus. Ut vel leo lectus. Morbi rhoncus, lorem eget efficitur porttitor, elit purus facilisis nunc, sed laoreet turpis urna et neque. Mauris at volutpat justo, rutrum fermentum magna. Pellentesque egestas odio vitae tellus convallis imperdiet. Sed quis felis a libero cursus vestibulum. Sed venenatis a enim non egestas. Aenean eget imperdiet libero, vitae ornare neque. Sed et commodo tortor. Fusce sapien neque, congue quis turpis ut, luctus egestas lorem. 
+      </div>
+
+      <div> <!-- seccion con ancla-->
+        <a name="ancla" id="a"></a>
+        aqui te debe de mostrar
       </div>
      
     <div id="pie">
@@ -72,5 +86,7 @@
         <!-- Los javascripts BACKGROUND="imagenes/1.jpeg" class="img-responsive"-->
         <script type="text/javascript" src="js/boostrap.min.js"></script>
         <script type="text/javascript" src="js/boostrap.js"></script>
+        <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+        <script type="text/javascript" src="estilos-js.js"></script>
     </body>
 </html>
