@@ -32,9 +32,12 @@
 #superior{
 	text-indent: 1em;
 	padding-right: 4em;
-	text-align: right;
+	text-align: center;
 	height: 4em;
 	background-color: #34699a;
+	border-radius: 50px 50px 16px 50px;
+-moz-border-radius: 50px 50px 16px 50px;
+-webkit-border-radius: 50px 50px 16px 50px;
 }
 #pie{
 	clear: both;
@@ -76,6 +79,7 @@ html{
 .relation-center{
 	padding-top: 1em;
 	clear: both;
+	
 }
 .relation2{
 	padding-top: 1em;
@@ -86,6 +90,10 @@ html{
 }
 a{
 	color: #34495e;
+}
+a:link{
+	text-decoration: none;
+	background-color: #33cccc
 }
 body{
 	float: center;
@@ -106,6 +114,7 @@ body{
    filter:alpha(opacity=60); /* IE < 9.0 */
    width:200px;
    height:70px;
+
 }
 .description{
 	background-color: #FFF;
@@ -118,4 +127,21 @@ body{
 	width: 100%;
 	float: left;
 	margin-top: 15px;
+}
+.galery{
+	margin: 1em;
+	width: 15%;
+	clear: left;
+}
+.reducer{
+	width: 60%;
+	float: left;
+	margin-left: 20%;
+	border-width: thin;
+	border-color: #f3558e;
+}
+img.galery{
+	width: 200px;
+	height: 200px;
+	box-shadow: 0 0 17px rgb(226, 14, 14 );
 }
