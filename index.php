@@ -18,7 +18,7 @@
       <header class="cabecera"><!-- Div para la pestaña superior-->
         <div id="superior">
           <div class="relation-center">
-            <h4><a href="">Relacionados</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Desarrollo</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#ancla">Galeria</a></h4>
+            <h4><a href="">Relacionados</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Desarrollo</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a id="a1" href="#ancla">Galeria</a></h4>
           </div>  
         </div>
       </header>
@@ -77,14 +77,12 @@
       <div> <!-- seccion con ancla-->
         <a name="ancla" id="a"></a>
         <div class="description">
-        <?=
-          $limit=8;
-          //echo "<img id='' src='imagenes/galeria".$con.".jpg' class='galery'>";
-          for($con = 1; $con <= $limit; $con++){
-            ?><img id='' src='imagenes/galeria"<?=$con?>".jpg' class='galery'>
-            <?=
-          }
-        ?>
+          <div class="reducer">
+        <?php $limit=8;
+          for($con = 1; $con <= $limit; $con++){?>
+              <img id='' src='imagenes/galeria<?=$con?>.jpg' class='galery img-rounded'>
+            <?php } ?>
+          </div>
         </div>
       </div>
      

@@ -23,7 +23,6 @@
         </div>
       </header>
 
-      <?php include 'index.php';?>
 
       <div id="pie">
       <div class="relation">
